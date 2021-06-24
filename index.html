@@ -1,12 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Prueba 4
-</body>
+<html lang="es">
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="myjs.js"></script>
+		<meta charset="iso-8559-1"/>
+		<meta name="description" content="Primera pagina de música"/>
+		<meta name="keywords" content="musica, guitarra, piano"/>
+		<title>Clases de musica</title>
+		<!-- <link rel="stylesheet" href="mihojadeestilos.css"/> -->
+	</head>
+
+	<body>
+		<header id="head1" class="color1">   <!-- Esto informa que la informacion es un titulo--> 
+			<h1>Clases de musica</h1>  <!-- Este es el titulo que se va a mostrar-->
+			<h4>	Esta es mi primera pagina de musica.
+				Joel Rosario Beltre.</h4>	 <!-- Este es otro titulo-->	
+		</header>
+
+		<nav id="menu1" class="d-flex flex-row">      <!--Esta es la barra de navegacion-->
+			<ul>   <!--La etiqueta <ul> indica que vamos a hacer una lista desordenada, si escribimos <ol> entonces seria ordenada -->
+				<li>| Clases de Guitarra |</li> <!--La etiqueta <li> hace referencia a cada elemento de la barra de navegacion-->
+				<li>| Clases de Lectura y teoria |</li>
+				<li>| Clases de Armonia |</li>
+				<li> <a href="Clases de historia musical.html">| Clases de historia musical |</a> </li>
+			</ul>
+		</nav>
+
+		<aside id="barraLateral">     <!--Esta etiqueta indica que el contenido es una barra latera Side/lado-->
+			<blockquote>Primer Elemento</blockquote> <!--La etiqueta blockquote indica que es un elemento de la etiqueta aside-->
+			<blockquote>Segundo Elemento</blockquote>
+			<blockquote>Tercer Elemento</blockquote>
+		</aside>
+
+		<section id="seccionprincipal">	<!--Esoto seria la seccion principal-->
+			<header id="tituloArt1">
+				<hgroup><!--Sirve para agrupar las etiquetas "h"-->
+					<h3>Titulo principal del articulo</h3>
+					<h5>Subtitulo del articulo</h5>
+				</hgroup>
+			</header>
+			<article>	<!--La etiqueta article sirve para agrupar contenidos-->
+
+				<figure id="imageBox"><!--figure es una etiqueta que se usa para agregar elementos multimedia(img o vid entre otros)-->
+					<img src="imagenes/arpa.jfif"/><!--Para agregar imagen se usa la etiqueta "img" segido del src=""-->
+					<figcaption><!--Indica el nombre o texto que se pondra debajo de la imagen, debe colocarse despues de la imagen-->
+						<mark>Arpa con pedales</mark><!--mark se usa para subrayar el texto-->
+					</figcaption>
+				</figure>
+
+				   <p>Titulo de la informacion</p><!--la "p" indica parrafo-->
+				   <p>este es el texto que aparecera en el parrafo luego del titulo</p>			
+				   <p>esta es la continuacion del texto</p>
+				 <footer>
+					 <em>Comentarios en el footer del article</em><!--"em" se utiliza para -->
+				</footer>
+			</article>
+
+			<header id="tituloArt2">
+				<h3>Titulo principal del segundo articulo</h3>
+			</header>
+
+			<article>
+
+
+				<p>	
+			  	 <strong>Titulo de la informacion nueva</strong><!--strong se utiliza para resaltar texto de importancia y lo coloca en negrita-->
+				</p>
+				<p>La pieza <cite>La marcha turka</cite> <!--indica una cita o nombre de libro, pelicula etc...--> 
+				   es una pieza importante de la historia de la musica.</p>			
+				<p>esta es la continuacion del texto</p>
+				<time datetime="2020/1/31" pubdate>Noticia publicada el 31/1/2020</time><!--time se usa para especificar fecha-->
+			</article>												<!--datetime y pubdate se agregan para especificar el formato de fecha-->
+		</section>
+
+		<footer id="lastFooter">	<!--El footer es el pie de pagina o de la seccion en donde se encuentre-->
+			
+			<small>Derechos reservados JoeBel §</small><!--convierte la letra en equeña y solamente se usa para asuntos legales-->
+
+					<address>829-299-8563</address><!--indica informacion de contacto y telefono-->
+		</footer>
+	</body><!---->
 </html>
+
+<style>
+ul > li:hover{
+	background-color: slateblue;
+	border-radius: 5px;
+	color: white;}
+aside > blockquote:hover{
+	background-color: slateblue;
+	border-radius: 5px;
+	color: white;}
+	#head1{
+	border-radius: 5px;
+	padding: 1px;
+	width: 500px;
+	margin: 10px auto;
+	text-align: center;
+	background-color: rgb(119, 140, 243);}
+header{background-color: rgb(211, 214, 231);}
+#menu1{text-align: center;}
+
+li{ display: inline;}
+#barraLateral{float: left; background-color: rgb(119, 140, 243); height: 612px;}
+#seccionprincipal{margin-left: 214px;}           
+#tituloArt1{margin-top: 10px;margin-bottom: 10px;}
+article{background-color: rgb(119, 140, 243);}
+#tituloArt2 {margin-top: 10px;margin-bottom: 10px;}
+#lastFooter{background-color: rgb(208, 226, 43); clear: both; margin-top: 10px;} 
+.color1{color: greenyellow;}
+
+
+</style>
