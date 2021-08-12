@@ -6,7 +6,7 @@ body
     
     background-image: url('imagenes/musicPrintWhite.jpg');
     background-position: center;
-    background-size: 350px;
+    background-size: 25%;
     background-repeat: repeat;
     
 
@@ -16,18 +16,19 @@ body
 {
     
     margin-top: 0px;
-    margin-left: 4px;
+    margin-left: 50px;
     float: left;
-    width: 13%;
-    background-color: ivory;
+    width: 17%;
+
 }
 
 ul 
     {
      
-	 background-color: rgb(235, 235, 235);
-	 border-radius: 5px;
-     border-width: 4,4,4,4;
+	 background-color: white;
+	 margin:auto;
+     border-radius: 1px;
+   
      
     }
 ul > li:hover
@@ -61,7 +62,7 @@ aside > blockquote:hover
     {   
         padding: 2px;
         width: 60%;
-        margin:auto;
+        margin:left;
         text-align: left;
     }
 
@@ -89,8 +90,9 @@ article
     position:fixed;
     left: 4px;
     top: 158px;
-    float: left; background-color: slategray; height: 612px;
+    float: left; 
     height: 67%;
+    background-color: slategray; 
 }
 
 #seccionprincipal
@@ -100,15 +102,18 @@ article
 
 #tituloArt1
 {
-    margin-top: 10px;margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #tituloArt2
 {
-    margin-top: 10px;margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #lastFooter
 {
-    background-color: rgb(208, 226, 43); clear: both; margin-top: 10px;
+    background-color: rgb(79, 135, 165); 
+    clear: both; margin-top: 10px;
 } 
