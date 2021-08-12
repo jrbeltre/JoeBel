@@ -1,26 +1,114 @@
-    ul > li:hover{
-	background-color: slateblue;
+
+/*Hoja de estilos .css*/
+
+body
+{
+    
+    background-image: url('imagenes/musicPrintWhite.jpg');
+    background-position: center;
+    background-size: 350px;
+    background-repeat: repeat;
+    
+
+}
+
+#myLogo
+{
+    
+    margin-top: 0px;
+    margin-left: 4px;
+    float: left;
+    width: 13%;
+    background-color: ivory;
+}
+
+ul 
+    {
+     
+	 background-color: rgb(235, 235, 235);
+	 border-radius: 5px;
+     border-width: 4,4,4,4;
+     
+    }
+ul > li:hover
+    {
+	 background-color: slategray;
+	 border-radius: 5px;
+	 color: white;
+    }
+
+aside > blockquote:hover
+   {
+    position: fix;
+	background-color: slategray;
 	border-radius: 5px;
-	color: white;}
-aside > blockquote:hover{
-	background-color: slateblue;
+	color: rgb(175, 29, 29);
+   }
+
+#head1
+   {
+    
+    color:rgb(0, 0, 0);
 	border-radius: 5px;
-	color: white;}
-	#head1{
-	border-radius: 5px;
-	padding: 1px;
-	width: 500px;
+	width: 50%;
 	margin: 10px auto;
 	text-align: center;
-	background-color: rgb(119, 140, 243);}
-header{background-color: rgb(211, 214, 231);}
-#menu1{text-align: center;}
+	background-color: slategray;
+    
+   }
 
-li{ display: inline;}
-#barraLateral{float: left; background-color: rgb(119, 140, 243); height: 612px;}
-#seccionprincipal{margin-left: 214px;}           
-#tituloArt1{margin-top: 10px;margin-bottom: 10px;}
-article{background-color: rgb(119, 140, 243);}
-#tituloArt2 {margin-top: 10px;margin-bottom: 10px;}
-#lastFooter{background-color: rgb(208, 226, 43); clear: both; margin-top: 10px;} 
-.color1{color: greenyellow;}
+#menu1
+    {   
+        padding: 2px;
+        width: 60%;
+        margin:auto;
+        text-align: left;
+    }
+
+
+li 
+{
+    display: inline;
+}
+
+header
+{
+    background-color: slategray;
+    width: 90%;
+    color:black;
+}
+
+article
+{
+    background-color: slategray;
+    width: 90%;
+}
+
+#barraLateral
+{
+    position:fixed;
+    left: 4px;
+    top: 158px;
+    float: left; background-color: slategray; height: 612px;
+    height: 67%;
+}
+
+#seccionprincipal
+{
+    margin-left: 214px;
+}
+
+#tituloArt1
+{
+    margin-top: 10px;margin-bottom: 10px;
+}
+
+#tituloArt2
+{
+    margin-top: 10px;margin-bottom: 10px;
+}
+
+#lastFooter
+{
+    background-color: rgb(208, 226, 43); clear: both; margin-top: 10px;
+} 
