@@ -5,17 +5,17 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<style src="style.css"></style>
 <script src="myjs.js"></script>
 		<meta charset="iso-8559-1"/>
 		<meta name="description" content="Primera pagina de música"/>
 		<meta name="keywords" content="musica, guitarra, piano"/>
 		<title>Clases de musica</title>
 		<!-- <link rel="stylesheet" href="mihojadeestilos.css"/> -->
+<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
-		<header id="head1" class="color1">   <!-- Esto informa que la informacion es un titulo--> 
+		<header id="head1" class="color1"><a href="index.html">   <!-- Esto informa que la informacion es un titulo--> 
 			<h1>Clases de musica</h1>  <!-- Este es el titulo que se va a mostrar-->
 			<h4>	Esta es mi primera pagina de musica.
 				Joel Rosario Beltre.</h4>	 <!-- Este es otro titulo-->	
@@ -23,9 +23,9 @@
 
 		<nav id="menu1" class="d-flex flex-row">      <!--Esta es la barra de navegacion-->
 			<ul>   <!--La etiqueta <ul> indica que vamos a hacer una lista desordenada, si escribimos <ol> entonces seria ordenada -->
-				<li>| Clases de Guitarra |</li> <!--La etiqueta <li> hace referencia a cada elemento de la barra de navegacion-->
-				<li>| Clases de Lectura y teoria |</li>
-				<li>| Clases de Armonia |</li>
+				<li><a href="guitarra.html">| Clases de Guitarra |</li> <!--La etiqueta <li> hace referencia a cada elemento de la barra de navegacion-->
+				<li><a href="lecturaTeoria.html">| Clases de Lectura y teoria |</li>
+				<li><a href="armonia.html">| Clases de Armonia |</li>
 				<li> <a href="Clases de historia musical.html">| Clases de historia musical |</a> </li>
 			</ul>
 		</nav>
@@ -85,32 +85,3 @@
 		</footer>
 	</body><!---->
 </html>
-
-<style>
-    ul > li:hover{
-	background-color: slateblue;
-	border-radius: 5px;
-	color: white;}
-aside > blockquote:hover{
-	background-color: slateblue;
-	border-radius: 5px;
-	color: white;}
-	#head1{
-	border-radius: 5px;
-	padding: 1px;
-	width: 500px;
-	margin: 10px auto;
-	text-align: center;
-	background-color: rgb(119, 140, 243);}
-header{background-color: rgb(211, 214, 231);}
-#menu1{text-align: center;}
-
-li{ display: inline;}
-#barraLateral{float: left; background-color: rgb(119, 140, 243); height: 612px;}
-#seccionprincipal{margin-left: 214px;}           
-#tituloArt1{margin-top: 10px;margin-bottom: 10px;}
-article{background-color: rgb(119, 140, 243);}
-#tituloArt2 {margin-top: 10px;margin-bottom: 10px;}
-#lastFooter{background-color: rgb(208, 226, 43); clear: both; margin-top: 10px;} 
-.color1{color: greenyellow;}
-</style>

@@ -1,1 +1,26 @@
+    ul > li:hover{
+	background-color: slateblue;
+	border-radius: 5px;
+	color: white;}
+aside > blockquote:hover{
+	background-color: slateblue;
+	border-radius: 5px;
+	color: white;}
+	#head1{
+	border-radius: 5px;
+	padding: 1px;
+	width: 500px;
+	margin: 10px auto;
+	text-align: center;
+	background-color: rgb(119, 140, 243);}
+header{background-color: rgb(211, 214, 231);}
+#menu1{text-align: center;}
 
+li{ display: inline;}
+#barraLateral{float: left; background-color: rgb(119, 140, 243); height: 612px;}
+#seccionprincipal{margin-left: 214px;}           
+#tituloArt1{margin-top: 10px;margin-bottom: 10px;}
+article{background-color: rgb(119, 140, 243);}
+#tituloArt2 {margin-top: 10px;margin-bottom: 10px;}
+#lastFooter{background-color: rgb(208, 226, 43); clear: both; margin-top: 10px;} 
+.color1{color: greenyellow;}
