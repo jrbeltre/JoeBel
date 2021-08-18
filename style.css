@@ -4,7 +4,7 @@
 body
 {
     
-    background-image: url('imagenes/musicPrintWhite.jpg');
+    /*background-image: url('imagenes/musicPrintWhite.jpg');*/
     background-position: center;
     background-size: 25%;
     background-repeat: repeat;
@@ -33,7 +33,7 @@ ul
     }
 ul > li:hover
     {
-	 background-color: slategray;
+	 background-color: white;
 	 border-radius: 5px;
 	 color: white;
     }
@@ -41,7 +41,7 @@ ul > li:hover
 aside > blockquote:hover
    {
     position: fix;
-	background-color: slategray;
+	background-color: white;
 	border-radius: 5px;
 	color: rgb(175, 29, 29);
    }
@@ -50,11 +50,12 @@ aside > blockquote:hover
    {
     
     color:rgb(0, 0, 0);
+    font-family: fantasy;
 	border-radius: 5px;
 	width: 50%;
 	margin: 10px auto;
 	text-align: center;
-	background-color: slategray;
+	background-color: white;
     
    }
 
@@ -69,19 +70,20 @@ aside > blockquote:hover
 
 li 
 {
+    
     display: inline;
 }
 
 header
 {
-    background-color: slategray;
+    background-color: white;
     width: 90%;
     color:black;
 }
 
 article
 {
-    background-color: slategray;
+    background-color: white;
     width: 90%;
 }
 
@@ -91,8 +93,8 @@ article
     left: 4px;
     top: 158px;
     float: left; 
-    height: 67%;
-    background-color: slategray; 
+    height: 60%;
+    background-color: white; 
 }
 
 #seccionprincipal
