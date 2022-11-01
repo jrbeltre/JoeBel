@@ -29,3 +29,5 @@ Falta agregar los videos de youtube a la galeria.
 9
 10
 11
+
+Check out the Flex important style on the orange square in the Services section of index.html
