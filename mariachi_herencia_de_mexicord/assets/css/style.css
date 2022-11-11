@@ -10,7 +10,7 @@
 # Global variables
 --------------------------------------------------------------*/
 :root {
-  --backgroundColor: #bababa;
+  --backgroundColor: #c4c3c3;
   --contrastColor: #e6573f;
   --clearColor: #fff;
 }
@@ -2299,4 +2299,15 @@ object-fit: contain;
 }
 .my-whatsApp{
   margin-top:16px;
+}
+
+*::-webkit-scrollbar {
+  width: 2px;
+}
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--contrastColor);
+  
 }

@@ -1,0 +1,11 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [
+        "spell.language":"en,es",
+    ],
+    "words": [],
+    "ignoreWords": [],
+    "import": []
+}
