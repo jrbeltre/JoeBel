@@ -113,14 +113,14 @@ h6 {
 }
 
 #topbar .social-links a {
-  color: #bababa;
+  color: var(--contrastColor);
   line-height: 0;
   transition: 0.3s;
   margin-left: 10px;
 }
 
 #topbar .social-links a:hover {
-  color: white;
+  color: var(--contrastColor);
 }
 
 /*--------------------------------------------------------------
@@ -2291,15 +2291,16 @@ section {
 /* -------------------------------------------------------------------------- */
 .whatsApp {
   position: fixed;
-  width: 75px;
-  height: 70px;
+  width: 250px;
+  height: 45px;
   bottom: 15px;
   left: 30px;
   background-color: #25d366;
   color: #FFF;
   border-radius: 50px;
   text-align: center;
-  font-size: 13px;
+  vertical-align: middle;
+  font-size: 20px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
@@ -2325,3 +2326,4 @@ iframe {
   display: block;
   border-style: none;
 }
+
